@@ -1,0 +1,30 @@
+body{
+    background-color: palegreen;                     /* This is a CSS comment. */
+}
+ h1 {
+    font-weight: 500;
+    color: rgb(226, 43, 43); 
+} 
+
+
+
+/*
+
+html,body{
+    padding: 0;
+    margin:0 auto; 
+    
+}
+.flask{
+    background-color: rgb(124, 155, 38);
+    color: white;
+    padding: 30px 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.flask h2,h3 {
+    color: blueviolet; 
+} 
+*/
+
+

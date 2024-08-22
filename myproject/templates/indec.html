@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+</head>
+<body>
+    <form method="POST" action="product" autocomplete="off">
+        <h1>Welcome to the page</h1>
+        <h2>Django Tutorial</h2>
+        <h1>Form Page</h1>
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</body>
+</html>
